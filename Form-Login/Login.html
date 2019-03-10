@@ -14,60 +14,61 @@
     <!-- owl carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
     <title>Halo Iman</title>
+
 </head>
 <body>
 <!-- Default form login -->
-<form class="text-center border border-light p-5">
 
-    <p class="h4 mb-4">Sign in</p>
+<div class="continer">
 
-    <!-- Email -->
-    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
 
-    <!-- Password -->
-    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 " style="border-radius: 10px;border: 1px solid lightgray; margin-top: 100px ">
+            <form class="text-center  p-4">
+                <p class="h4 mb-3">Masuk</p>
+                <!-- Social login -->
+                <p class="h7 mb-1">Gunakan Akun :</p>
+                <p class=" mb-2"><a href="#"> <img src="https://image.flaticon.com/teams/slug/google.jpg" alt="" style="width: 50px"></a> <a href="#"> <img src="http://www.stickpng.com/assets/images/58e91965eb97430e819064f5.png" alt="" style="width: 40px"></a></p>
+                <p class="h7 mb-4">Atau</p>
+                <!-- Email -->
+                <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Nama Pengguna">
 
-    <div class="d-flex justify-content-around">
-        <div>
-            <!-- Remember me -->
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
-            </div>
+                <!-- Password -->
+                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Kata Sandi">
+
+                <div class="d-flex justify-content-around">
+                    <div>
+                        <!-- Remember me -->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                            <label class="custom-control-label" for="defaultLoginFormRemember">Ingatkan Saya</label>
+                        </div>
+                    </div>
+                    <div>
+                        <!-- Forgot password -->
+                        <a href="">Lupa Sandi ?</a>
+                    </div>
+                </div>
+
+                <!-- Sign in button -->
+                <button class="btn btn-info btn-block my-4" type="submit">Masuk</button>
+
+                <!-- Register -->
+                <p>Bukan Seorang Anggota Kajian Online ?
+                    <a href="">Registrasi</a>
+                </p>
+
+
+
+            </form>
         </div>
-        <div>
-            <!-- Forgot password -->
-            <a href="">Forgot password?</a>
-        </div>
+        <div class="col-md-4"></div>
     </div>
+</div>
 
-    <!-- Sign in button -->
-    <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
-
-    <!-- Register -->
-    <p>Not a member?
-        <a href="">Register</a>
-    </p>
-
-    <!-- Social login -->
-    <p>or sign in with:</p>
-
-    <a type="button" class="light-blue-text mx-2">
-        <i class="fab fa-facebook-f"></i>
-    </a>
-    <a type="button" class="light-blue-text mx-2">
-        <i class="fab fa-twitter"></i>
-    </a>
-    <a type="button" class="light-blue-text mx-2">
-        <i class="fab fa-linkedin-in"></i>
-    </a>
-    <a type="button" class="light-blue-text mx-2">
-        <i class="fab fa-github"></i>
-    </a>
-
-</form>
 <!-- Default form login -->
 </body>
 </html>
